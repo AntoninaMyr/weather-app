@@ -47,8 +47,8 @@ function handleSubmit(event) {
     navigator.userAgentData
 }
 
-search("New York");
+search("Paris");
 
 let form = document.querySelector("#search-form");
-form.addEventListener("submit", handleSubmit());
+form.addEventListener("submit", handleSubmit);
 
